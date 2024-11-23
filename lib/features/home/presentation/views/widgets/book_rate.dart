@@ -24,7 +24,7 @@ class Bookrate extends StatelessWidget {
         ),
         Text(
           '(2481)',
-          style: Styles.fontsize14.copyWith(color: Color(0XFF707070)),
+          style: Styles.fontsize14.copyWith(color: const Color(0XFF707070)),
         )
       ],
     );
