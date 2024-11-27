@@ -1,4 +1,5 @@
 import 'package:bookly/core/utils/styles.dart';
+import 'package:bookly/features/home/presentation/views/widgets/book_rate.dart';
 import 'package:bookly/features/home/presentation/views/widgets/custom_book_detail_app_bar.dart';
 import 'package:bookly/features/home/presentation/views/widgets/custom_book_image.dart';
 import 'package:flutter/material.dart';
@@ -20,12 +21,19 @@ class BookViewDetailBody extends StatelessWidget {
           'the Junkle book',
           style: Styles.fontsize30,
         ),
-        const Opacity(
+        Opacity(
           opacity: 0.7,
           child: Text(
             'rafalh eldd',
-            style: Styles.fontsize18,
+            style: Styles.fontsize18.copyWith(
+                fontStyle: FontStyle.italic, fontWeight: FontWeight.w500),
           ),
+        ),
+        const SizedBox(
+          height: 14,
+        ),
+        Bookrate(
+          mainAxisAlignment: MainAxisAlignment.center,
         ),
       ],
     );
