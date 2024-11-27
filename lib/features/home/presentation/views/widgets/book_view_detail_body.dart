@@ -1,3 +1,4 @@
+import 'package:bookly/core/utils/styles.dart';
 import 'package:bookly/features/home/presentation/views/widgets/custom_book_detail_app_bar.dart';
 import 'package:bookly/features/home/presentation/views/widgets/custom_book_image.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,18 @@ class BookViewDetailBody extends StatelessWidget {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * 0.18),
           child: const CustomBookImage(),
-        )
+        ),
+        const Text(
+          'the Junkle book',
+          style: Styles.fontsize30,
+        ),
+        const Opacity(
+          opacity: 0.7,
+          child: Text(
+            'rafalh eldd',
+            style: Styles.fontsize18,
+          ),
+        ),
       ],
     );
   }
