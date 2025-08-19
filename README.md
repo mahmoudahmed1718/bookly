@@ -1,16 +1,37 @@
-# bookly
+# 📚 Bookly App  
 
-A new Flutter project.
+A modern Flutter application for discovering, exploring, and purchasing books online.  
+Bookly integrates with an external API to fetch a wide variety of books, display best sellers, and show detailed information for each book.  
 
-## Getting Started
+## 🚀 Features  
+- 📖 Fetch books from a remote API using **Dio**  
+- 🛒 Browse & buy books directly from the app  
+- 🌟 Explore **best seller lists**  
+- 🔍 View detailed information for each book (title, author, description, price, etc.)  
+- 🧭 Clean navigation with **GoRouter**  
+- 🎨 Beautiful UI with **Google Fonts** and **FontAwesome Icons**  
+- 📱 Responsive and adaptive design (works on mobile & tablet)  
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots  
 
-A few resources to get you started if this is your first Flutter project:
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
+  <img src="assets/images/home_screen.jpg" alt="Home Screen" width="250"/>
+  <img src="assets/images/best_seller.jpg" alt="Best Seller" width="250"/>
+  <img src="assets/images/book_details.jpg" alt="Book Details" width="250"/>
+  <img src="assets/images/cart.jpg" alt="Cart" width="250"/>
+</div>  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*(Replace these `assets/images/...` paths with your actual screenshots.)*  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies & Packages  
+
+- [Flutter](https://flutter.dev/) (latest stable)  
+- [Dio](https://pub.dev/packages/dio) – HTTP client for API requests  
+- [Dartz](https://pub.dev/packages/dartz) – Functional programming (Either/Option handling)  
+- [Equatable](https://pub.dev/packages/equatable) – Simplifies value comparisons  
+- [GoRouter](https://pub.dev/packages/go_router) – Declarative routing  
+- [Google Fonts](https://pub.dev/packages/google_fonts) – Custom typography  
+- [Font Awesome Icon Class](https://pub.dev/packages/font_awesome_icon_class) – Icons  
+
+## 📂 Project Structure  
+
