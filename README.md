@@ -15,11 +15,11 @@ Bookly integrates with an external API to fetch a wide variety of books, display
 ## 📱 Screenshots  
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
-  <img src="assets/images/home_screen.jpg" alt="Home Screen" width="250"/>
-  <img src="assets/images/best_seller.jpg" alt="Best Seller" width="250"/>
-  <img src="assets/images/book_details.jpg" alt="Book Details" width="250"/>
-  <img src="assets/images/cart.jpg" alt="Cart" width="250"/>
-</div>  
+  <img src="assets/image_readme/spalsh.jpg" alt="Splash Screen" width="250"/>
+  <img src="assets/image_readme/home.jpg" alt="Home Screen" width="250"/>
+  <img src="assets/image_readme/book_detail.jpg" alt="Book Detail Screen" width="250"/>
+</div>
+  
 
 *(Replace these `assets/images/...` paths with your actual screenshots.)*  
 
